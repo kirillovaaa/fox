@@ -6,9 +6,13 @@ import bot from "../../images/bot.svg";
 import bunny from "../../images/bunny.svg";
 import changer from "../../images/changer.svg";
 import eye from "../../images/eye.svg";
+import Popup from "../../components/Popup/Popup";
 
 const Functional = () => {
-  //   const [popupActive, setPopupActive] = useState(false);
+  const [popupActive, setPopupActive] = useState(false);
+  const closePopup = () => {
+    setPopupActive(false);
+  };
   return (
     <section className="functional">
       <div className="functional__info">
@@ -24,7 +28,12 @@ const Functional = () => {
               />
               <div className="functional__button-wrapper">
                 <h3 className="functional__button-name">Legit Bot</h3>
-                <button className="functional__button-more">Подробнее</button>
+                <button
+                  className="functional__button-more"
+                  onClick={() => setPopupActive(true)}
+                >
+                  Подробнее
+                </button>
               </div>
             </button>
             <button className="functional__info-button">
@@ -68,6 +77,11 @@ const Functional = () => {
             </button>
           </div>
         </div>
+        <Popup
+          active={popupActive}
+          setActive={setPopupActive}
+          onClose={closePopup}
+        />
       </div>
     </section>
   );

@@ -53,6 +53,9 @@
   color: #828282;
   font-size: 13px;
 }
+.functional__button-more:hover {
+  cursor: pointer;
+}
 .functional__button-name {
   color: #4f4f4f;
   font-size: 16px;
