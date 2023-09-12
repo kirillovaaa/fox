@@ -19,7 +19,7 @@
   background: rgba(8, 15, 22, 0.7);
 }
 .header__wrapper-heading {
-  max-width: 1054px;
+  max-width: 1235px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,7 +87,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 81px;
-  max-width: 1054px;
+  max-width: 1235px;
   width: 100%;
   margin-bottom: 86px;
 }

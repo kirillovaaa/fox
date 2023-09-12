@@ -7,7 +7,7 @@ import play from "../../images/play.svg";
 
 import "./Header.css";
 
-function Header() {
+const Header = () => {
   return (
     <header className="header">
       <div className="header__wrapper">
@@ -28,11 +28,7 @@ function Header() {
             </button>
           </div>
           <div className="header__auth">
-            <img
-              className="header__auth-image"
-              src={profile}
-              alt="profile-image"
-            />
+            <img className="header__auth-image" src={profile} alt="profile" />
             <button className="header__auth-button" type="button">
               Войти
             </button>
@@ -76,6 +72,6 @@ function Header() {
       </div>
     </header>
   );
-}
+};
 
 export default Header;

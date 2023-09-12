@@ -1,0 +1,55 @@
+.popup {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  padding-left: 19px;
+  padding-right: 19px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s ease-in-out;
+}
+
+.popup_opened {
+  visibility: visible;
+  opacity: 1;
+}
+.popup__form {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  padding: 25px 22px;
+  box-sizing: border-box;
+}
+
+.popup__close-button {
+  position: absolute;
+  top: -36px;
+  right: 0;
+  background: transparent;
+  display: flex;
+  padding: 0;
+  border: 0;
+}
+˜ .popup__close-button:hover {
+  opacity: 0.6;
+}
+
+.popup__close-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.popup__close-icon:hover {
+  cursor: pointer;
+}
