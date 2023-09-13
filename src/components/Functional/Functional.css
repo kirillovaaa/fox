@@ -11,6 +11,7 @@
   max-width: 1235px;
   width: 100%;
   align-items: center;
+  margin-bottom: 161px;
 }
 .functional__info-wrapper {
   display: flex;
@@ -68,4 +69,58 @@
 .functional__button-name {
   margin: 0;
   margin-bottom: 8px;
+}
+
+.functional__chit {
+  display: flex;
+  flex-direction: column;
+}
+.functional__chit-title {
+  margin: 0;
+  margin-bottom: 109px;
+  font-size: 32px;
+  text-align: center;
+  color: #333;
+}
+.functional__chit-items {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: center;
+  max-width: 1235px;
+  width: 100%;
+  margin-bottom: 161px;
+}
+.functional__chit-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  width: 282px;
+  height: 367px;
+  border-radius: 10px;
+  background-color: #1b2024;
+}
+.functional__chit-name {
+  margin: 0;
+  align-items: center;
+  font-size: 18px;
+  position: absolute;
+  top: 210px;
+}
+.functional__chit-image {
+  top: 35px;
+  position: absolute;
+  padding: 32px 8px;
+  width: 154px;
+  height: 154px;
+}
+.functional__chit-background {
+  margin-top: 50px;
+}
+.functional__chit-description {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
 }
