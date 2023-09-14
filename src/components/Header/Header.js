@@ -56,7 +56,7 @@ const Header = () => {
       <div className="header__wrapper-promo">
         <h2 className="header__promo-subtitle">ПРИВАТНЫЙ ЧИП CS:GO</h2>
         <h1 className="header__promo-title">
-          <span class="colortext">Купил</span> и через <br /> 5 минут ты уже{" "}
+          <span class="colortext">Купил</span> и через <br /> 5 минут ты уже
           <br /> катаешь
         </h1>
         <span className="header__promo-text">Сделан специально для</span>
