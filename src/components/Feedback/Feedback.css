@@ -2,8 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
   background-color: #f0f1f7;
 }
+
 .feedback__title {
   margin: 0;
   font-size: 32px;
@@ -26,7 +28,7 @@
   align-items: center;
   max-width: 1235px;
   width: 100%;
-  margin-bottom: 161px;
+  margin-bottom: 90px;
 }
 .feedback__item {
   display: flex;
@@ -45,7 +47,6 @@
   position: absolute;
   top: 229px;
   color: #4f4f4f;
-  /* margin-top: 32px; */
 }
 .feedback__item-image {
   top: 35px;
@@ -62,4 +63,16 @@
   color: #828282;
   top: 270px;
   position: absolute;
+}
+
+.feedback__reviews {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+.feedback__reviews-title {
+  margin: 0;
+  font-size: 32px;
+  color: #333;
+  margin-top: 80px;
 }

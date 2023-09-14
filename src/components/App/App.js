@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import Functional from "../Functional/Functional";
 import Calc from "../Calc/Calc";
 import Feedback from "../Feedback/Feedback";
+import Reviews from "../Reviews/Reviews";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Functional />
       <Calc />
       <Feedback />
+      <Reviews />
     </main>
   );
 };
