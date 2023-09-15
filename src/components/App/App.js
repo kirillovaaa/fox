@@ -6,6 +6,8 @@ import Feedback from "../Feedback/Feedback";
 import Reviews from "../Reviews/Reviews";
 import Description from "../Description/Description";
 import Questions from "../Questions/Questions";
+// import Blog from "../Blog/Blog";
+import Footer from "../Footer/Footer";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Reviews />
       <Description />
       <Questions />
+      {/* <Blog /> */}
+      <Footer />
     </main>
   );
 };
