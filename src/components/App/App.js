@@ -5,6 +5,7 @@ import Calc from "../Calc/Calc";
 import Feedback from "../Feedback/Feedback";
 import Reviews from "../Reviews/Reviews";
 import Description from "../Description/Description";
+import Questions from "../Questions/Questions";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Feedback />
       <Reviews />
       <Description />
+      <Questions />
     </main>
   );
 };

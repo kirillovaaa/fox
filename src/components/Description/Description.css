@@ -10,6 +10,7 @@
   background-position: center;
   background-size: cover;
   align-items: center;
+  margin-bottom: 120px;
 }
 .description__wrapper {
   display: flex;
