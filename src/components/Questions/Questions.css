@@ -84,3 +84,34 @@
   font-size: 36px;
   font-weight: 400;
 }
+@media screen and (max-width: 768px) {
+  .questions__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .questions__image {
+    right: -250px;
+    margin-top: 40px;
+  }
+  .questions__image-left {
+    top: 0px;
+    right: 30px;
+  }
+  .questions__container-service {
+    right: 110px;
+    top: 30px;
+  }
+  .questions__image-text {
+    right: 70px;
+    top: 70px;
+    font-size: 14px;
+  }
+  .questions__answers {
+    margin-top: -80px;
+  }
+  .questions {
+    margin-bottom: 370px;
+  }
+}

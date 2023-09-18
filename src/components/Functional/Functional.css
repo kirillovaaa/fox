@@ -124,3 +124,19 @@
   font-weight: 300;
   text-align: center;
 }
+
+@media screen and (max-width: 1100px) {
+  .functional__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .functional__info-grid {
+    margin-top: 10px;
+  }
+  .functional__chit-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

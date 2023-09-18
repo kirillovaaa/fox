@@ -19,7 +19,7 @@ const Reviews = () => {
       <h2 className="reviews__title">Видеобзоры</h2>
       <div className="reviews__video">
         <div className="reviews__video-wrapper">
-          <img className="reviews__video-image" src={video1} alt="video" />
+          <img className="reviews__image" src={video1} alt="video" />
           <img className="reviews__video-button" src={youtube} alt="button" />
         </div>
         <div className="reviews__video-wrapper">

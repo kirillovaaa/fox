@@ -55,3 +55,22 @@
 .reviews__image-scrollbar {
   margin-bottom: 96px;
 }
+
+@media screen and (max-width: 768px) {
+  .reviews__image {
+    width: 500px;
+  }
+  .reviews__button {
+    margin-left: -260px;
+  }
+  .reviews__video {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .reviews__video-button {
+    left: 220px;
+    top: 120px;
+  }
+}

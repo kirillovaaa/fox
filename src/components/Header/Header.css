@@ -153,3 +153,16 @@
   width: 20px;
   height: 20px;
 }
+
+@media screen and (max-width: 1280px) {
+  .header__messenger,
+  .header__nav {
+    display: none;
+  }
+  .header__wrapper {
+    padding: 0 20px 0 20px;
+  }
+  .header__wrapper-promo {
+    padding: 0 0px 0 20px;
+  }
+}

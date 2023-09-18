@@ -34,3 +34,8 @@
   margin: 0;
   margin-bottom: 97px;
 }
+@media screen and (max-width: 768px) {
+  .description__wrapper {
+    padding: 0 0 0 20px;
+  }
+}

@@ -76,3 +76,9 @@
   color: #333;
   margin-top: 80px;
 }
+@media screen and (max-width: 768px) {
+  .feedback__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

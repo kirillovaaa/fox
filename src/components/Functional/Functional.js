@@ -4,6 +4,8 @@ import man from "../../images/man.png";
 import target from "../../images/target.svg";
 import elipse from "../../images/elipse.svg";
 import pazzl from "../../images/pazzl.svg";
+import eye from "../../images/eye.svg";
+import bunny from "../../images/bunny.svg";
 import vac from "../../images/vac.svg";
 import detail from "../../images/detail.svg";
 import laptop from "../../images/laptop.svg";
@@ -35,6 +37,20 @@ const Functional = () => {
                 >
                   Подробнее
                 </button>
+              </div>
+            </button>
+            <button className="functional__info-button">
+              <img className="functional__info-image" src={eye} alt="eye" />
+              <div className="functional__button-wrapper">
+                <h3 className="functional__button-name">Wallhack</h3>
+                <button className="functional__button-more">Подробнее</button>
+              </div>
+            </button>
+            <button className="functional__info-button">
+              <img className="functional__info-image" src={bunny} alt="bunny" />
+              <div className="functional__button-wrapper">
+                <h3 className="functional__button-name">Bunny Hop</h3>
+                <button className="functional__button-more">Подробнее</button>
               </div>
             </button>
           </div>
